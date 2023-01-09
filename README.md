@@ -39,15 +39,18 @@ as well as external participants. The method proposed by Jordan J. Bird is then 
 * The 256 PCs are scaled to produce grayscale images to pass into the CNN model. 
 
 * ANN Model and Non-Linear SVM
+
 ANN model of the pre-processed data yields an accuracy of 100% on the test set without
 overfitting. This accuracy is impossibly high, the reason might be the limited amount of
 data points, as well as bias within subject selection and extremity of classifications as
 possible causes for this.
 
 * CNN Model
+
 Two CNN models are used to analyze, first CNN model yields a training accuracy of 99.23% and a test set accuracy of 87.63%. The second CNN model follows the architecture in Jordan J. Bird’s research and is able to achieve an accuracy of 97.70% on the training set and an accuracy of 87.63% on the test set.
 
 * Naive Bayes Classifier
+
 Naive-Bayes classifier, yields an accuracy of 84.91% on the training set, and 80.10% on the test set
 
 * To expand on this project, it is proposed that the use of transfer learning models,
